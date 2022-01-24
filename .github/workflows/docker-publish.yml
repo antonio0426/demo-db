@@ -9,7 +9,7 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: docker-microservice
+      IMAGE_NAME: demo-db-image
     steps:
       - name: checkout
         uses: actions/checkout@v2
