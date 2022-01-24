@@ -9,7 +9,7 @@ import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties
 
 @SpringBootApplication
 @EnableEncryptableProperties
-public class DemoDbApplication {
+public class DemoDbApplication { 
 	
 	
 	private static final Logger log = LoggerFactory.getLogger(DemoDbApplication.class);
